@@ -1,0 +1,56 @@
+body{
+    background-color: #111;
+}
+
+.texto-p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.texto-m {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.texto-g {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.display-g {
+    font-size: 64px;
+    line-height: 72px;
+    font-family: 'Poppins';
+}
+
+.display-p {
+    font: 32px;
+    line-height: 40px;
+    font-family: 'Poppins';
+}
+
+.display-m {
+    font: 36px;
+    line-height: 48px;    
+    font-family: 'Merryweather', 'Poppins', 'Roboto';
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.medio {
+    font-weight: 500;
+}
+
+.regular {
+    font-weight: 400;
+}
