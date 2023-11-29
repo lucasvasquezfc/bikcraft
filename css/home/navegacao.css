@@ -1,12 +1,11 @@
 .header {
     background-color: var(--c12);
-    padding: 30px 0;
+    padding: 25px 0;
     color: var(--w);
 }
 
-.navegacao {
-    
-    width: 1160px;
+.navegacao {    
+    max-width: 1160px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -26,4 +25,32 @@
 .menu li{
     padding: 10px 0;
     cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    .navegacao {
+        padding: 0 20px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .navegacao {
+        flex-direction: column;
+    }
+
+    .menu {
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu {
+        flex-direction: column;
+        gap: 0px;
+        display: block;
+        text-align: center;
+    }
 }

@@ -32,22 +32,22 @@
 .font-1-xl {
     font-size: 32px;
     font-weight: 600;
-     line-height: 40px;
-     font-family: 'Poppins';
+    line-height: 40px;
+    font-family: 'Poppins';
 }
 
 .font-1-l {
     font-size: 24px;
     font-weight: 400;  
-     line-height: 36px;
-     font-family: 'Poppins';
+    line-height: 36px;
+    font-family: 'Poppins';
 }
 
 .font-2-l {
     font-size: 24px;
     font-weight: 400;  
-     line-height: 36px;
-     font-family: 'Roboto';
+    line-height: 36px;
+    font-family: 'Roboto';
 }
 
 .font-2-l-b {
