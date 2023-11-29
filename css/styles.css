@@ -1,2 +1,26 @@
 @import url('./home.css');
 @import url('./utilitarios.css');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,p,ul,li,span,a{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}

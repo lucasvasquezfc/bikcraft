@@ -1,0 +1,33 @@
+body {
+    background-color: var(--c10);
+}
+
+.header {
+    background-color: var(--c12);
+    padding: 30px 0;
+    color: var(--w);
+}
+
+.navegacao {
+    
+    width: 1160px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao img {
+    place-self: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu li{
+    padding: 10px 0;
+    cursor: pointer;
+}
