@@ -1,0 +1,43 @@
+.introducao {
+    background-color: var(--c12);
+}
+
+.introducao .container {
+    max-width: 1320px;
+    margin:  0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    height: 680px;
+    color: var(--w);
+}
+
+.introducao img {
+    grid-column: 2;
+    height: 800px;   
+    object-fit: cover;
+    border-radius: 5px;
+    object-position: 75% 25%;
+}
+
+.introducao div {
+    grid-row: 1;
+}
+
+.introducao-items {
+    padding-left: 80px;
+    padding-top: 200px;
+}
+
+.introducao-titulo {
+    margin-bottom: 32px;
+}
+
+.introducao-texto {
+    margin-bottom: 20px;
+    color: var(--c5);
+}
+
+.introducao .btn {
+    color: var(--p5);
+}

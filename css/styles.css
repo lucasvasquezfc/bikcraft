@@ -1,10 +1,13 @@
-@import url('./home.css');
 @import url('./utilitarios.css');
+@import url('./home/navegacao.css');
+@import url('./home/introducao.css');
 
 body {
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
+    padding-bottom: 1000px;
+    box-sizing: border-box;    
+    background-color: var(--w);
 }
 
 h1,h2,h3,h4,h5,p,ul,li,span,a{

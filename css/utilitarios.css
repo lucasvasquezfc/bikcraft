@@ -13,11 +13,13 @@
     --c11: #111111;
     --c12: #000000;
 
-    --p1: #332200;
-    --p2: #664400;
+    --p5: #332200;
+    --p4: #664400;
     --p3: #a66f00;
-    --p4: #e4a30b;
-    --p5: #ffbb00;
+    --p2: #e4a30b;
+    --p1: #ffbb00;
+
+    --gradiente: linear-gradient(to bottom, #ffbf00, #f2a50c);
 }
 
 .font-1-xxl {
@@ -53,6 +55,7 @@
     font-weight: 500;  
     line-height: 36px;
     letter-spacing: 1.5;
+    text-transform: uppercase;
     font-family: 'Roboto';
 }
 
@@ -107,9 +110,10 @@
 
 .btn {
     padding:16px 32px;
-    border-radius: 5px;
-    background: linear-gradient(to bottom, var(--p4), var(--p5));
+    border-radius: 5px; 
+    background: var(--gradiente);
 }
 
-
-
+.upper {
+    text-transform: uppercase;
+}
