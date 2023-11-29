@@ -1,56 +1,133 @@
-body{
-    background-color: #111;
+:root {
+    --w: #ffffff;
+    --c1: #f7f7f7;
+    --c2: #ededed;
+    --c3: #dedede;
+    --c4: #cccccc;
+    --c5: #b2b2b2;
+    --c6: #9c9c9c;
+    --c7: #717171;
+    --c8: #595959;
+    --c9: #404040;
+    --c10: #2e2e2e;
+    --c11: #111111;
+    --c12: #000000;
+
+    --p1: #332200;
+    --p2: #664400;
+    --p3: #a66f00;
+    --p4: #e4a30b;
+    --p5: #ffbb00;
 }
 
-.texto-p {
-    font-size: 16px;
-    line-height: 24px;
+h1,h2,h3,h4,h5,p,ul,li,span,a{
+    margin: 0;
+    padding: 0;
 }
 
-.texto-m {
-    font-size: 18px;
-    line-height: 32px;
+ul{
+    list-style: none;
 }
 
-.texto-g {
-    font-size: 24px;
-    line-height: 36px;
+a{
+    text-decoration: none;
 }
 
-.display-g {
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.font-1-xxl {
     font-size: 64px;
-    line-height: 72px;
-    font-family: 'Poppins';
-}
-
-.display-p {
-    font: 32px;
-    line-height: 40px;
-    font-family: 'Poppins';
-}
-
-.display-m {
-    font: 36px;
-    line-height: 48px;    
-    font-family: 'Merryweather', 'Poppins', 'Roboto';
-}
-
-.upper {
-    text-transform: uppercase;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.semi-bold {
     font-weight: 600;
+     line-height: 72px;
+     font-family: 'Poppins';
 }
 
-.medio {
-    font-weight: 500;
+.font-1-xl {
+    font-size: 32px;
+    font-weight: 600;
+     line-height: 40px;
+     font-family: 'Poppins';
 }
 
-.regular {
-    font-weight: 400;
+.font-1-l {
+    font-size: 24px;
+    font-weight: 400;  
+     line-height: 36px;
+     font-family: 'Poppins';
 }
+
+.font-2-l {
+    font-size: 24px;
+    font-weight: 400;  
+     line-height: 36px;
+     font-family: 'Roboto';
+}
+
+.font-2-l-b {
+    font-size: 24px;
+    font-weight: 500;  
+    line-height: 36px;
+    letter-spacing: 1.5;
+    font-family: 'Roboto';
+}
+
+.font-1-m {
+    font-size: 18px;
+    font-weight: 400;  
+     line-height: 24px;
+     font-family: 'Poppins';
+}
+
+.font-1-m-b {
+    font-size: 18px;
+    font-weight: 600;  
+     line-height: 24px;
+     font-family: 'Poppins';
+}
+
+.font-2-m {
+    font-size: 18px;
+    font-weight: 500;  
+     line-height: 24px;
+     font-family: 'Roboto';
+}
+
+.font-1-s {
+    font-size: 16px;
+    font-weight: 400;  
+     line-height: 24px;
+     font-family: 'Poppins';
+}
+
+.font-2-s {
+    font-size: 16px;
+    font-weight: 400;  
+     line-height: 24px;
+     font-family: 'Roboto';
+}
+
+.font-2-xs {
+    font-size: 14px;
+    font-weight: 400;  
+     line-height: 20px;
+     font-family: 'Roboto';
+}
+
+.font-1-xs {
+    font-size: 14px;
+    font-weight: 600;  
+     line-height: 20px;
+     font-family: 'Poppins';
+}
+
+.btn {
+    padding:16px 32px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, var(--p4), var(--p5));
+}
+
+
+
