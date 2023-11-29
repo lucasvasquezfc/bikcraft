@@ -22,6 +22,16 @@
     --gradiente: linear-gradient(to bottom, #ffbf00, #f2a50c);
 }
 
+.screen-1 {    
+    max-width: 1160px;
+    margin:  0 auto;
+}
+
+.screen-2 {
+    max-width: 1460px;
+    margin: 0 auto;
+}
+
 .font-1-xxl {
     font-size: 64px;
     font-weight: 600;
@@ -116,4 +126,8 @@
 
 .upper {
     text-transform: uppercase;
+}
+
+.ponto {
+    color: var(--p1);
 }

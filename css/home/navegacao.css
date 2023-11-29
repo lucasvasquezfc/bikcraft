@@ -4,9 +4,7 @@
     color: var(--w);
 }
 
-.navegacao {    
-    max-width: 1160px;
-    margin: 0px auto;
+.navegacao { 
     display: flex;
     justify-content: space-between;
 }

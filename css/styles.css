@@ -1,6 +1,7 @@
 @import url('./utilitarios.css');
 @import url('./home/navegacao.css');
 @import url('./home/introducao.css');
+@import url('./home/bicicletas.css');
 
 body {
     margin: 0 auto;
