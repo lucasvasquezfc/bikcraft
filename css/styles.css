@@ -2,6 +2,7 @@
 @import url('./home/navegacao.css');
 @import url('./home/introducao.css');
 @import url('./home/bicicletas.css');
+@import url('./home/diferencial.css');
 
 body {
     margin: 0 auto;
@@ -22,4 +23,9 @@ ul{
 
 a{
     text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
 }
