@@ -112,7 +112,7 @@
 }
 
 .font-1-xs {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;  
      line-height: 20px;
      font-family: 'Poppins';
@@ -121,7 +121,15 @@
 .btn {
     padding:16px 32px;
     border-radius: 5px; 
+    color: var(--p5);
     background: var(--gradiente);
+}
+
+.btn-prata {
+    padding:16px 32px;
+    border-radius: 5px; 
+    background: var(--c10);
+    color: var(--c4); 
 }
 
 .upper {
