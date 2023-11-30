@@ -9,11 +9,18 @@
 .parceiros-lista {
     background: var(--c2);
     display: grid;
-    grid-auto-rows: 200px;
     grid-gap: 2px;
     grid-template-columns: repeat(4, 1fr);
 }
 
 .parceiros-lista li {
     background: var(--w);
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.parceiros-lista img{
+    margin: auto 0;
+    ;
 }
