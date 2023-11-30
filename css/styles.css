@@ -3,6 +3,7 @@
 @import url('./home/introducao.css');
 @import url('./home/bicicletas.css');
 @import url('./home/diferencial.css');
+@import url('./home/parceiros.css');
 
 body {
     margin: 0 auto;
