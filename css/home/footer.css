@@ -1,0 +1,51 @@
+.footer {
+    background: var(--c12);
+    color: var(--w);
+    padding: 60px 0;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: minmax(auto, 160px) 1fr 1fr;
+    gap: 80px 140px;
+    color: var(--c6);
+}
+
+.footer .redes {
+    display: flex;
+    gap: 25px;
+}
+
+.footer .subtitulo {
+    text-transform: uppercase;
+    color: var(--w);
+    margin-bottom: 20px;
+}
+
+.contato-lista {
+    display: grid;
+    background: var(--c11);
+    gap: 2px;
+}
+
+.contato-lista li{
+    background-color: var(--c12);
+    padding: 20px 0;
+}
+
+.contato-lista p {
+    margin: 5px 0;
+}
+
+.info-lista {
+    margin: 40px 0;
+}
+
+.info-lista li {
+    margin: 10px 0;
+}
+
+.footer .direitos {
+    grid-row: 2;
+    grid-column: 1/-1;
+}
