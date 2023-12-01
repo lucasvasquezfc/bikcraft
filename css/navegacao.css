@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 
-.menu a:visited {
+.menu a, .menu a:visited {
     color: var(--w);
 }
 
