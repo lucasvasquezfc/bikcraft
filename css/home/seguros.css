@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .seguros .cartao {
@@ -48,6 +49,7 @@
 
 .seguros .cartao-item {
     text-align: right;
+    min-width: 61px;
 }
 
 .seguros .cartao-modo {
@@ -70,3 +72,66 @@
     justify-self: start;
 }
 
+@media (max-width: 1400px) {
+    .seguros {    
+        padding: 60px 20px 120px 20px;
+    }
+    .seguros-titulo {    
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 900px) {
+    .seguros {    
+        padding: 60px 20px 120px 20px;
+    }
+
+    .seguros-titulo {    
+        padding-left: 40px;
+    }
+
+    .seguros .cartao {
+        width: 100%;
+        max-width: 500px;
+    }    
+
+    .seguros .container {        
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 600px) {
+    .seguros {    
+        padding: 60px 10px 80px 10px;
+    }
+
+    .seguros-titulo {    
+        padding-bottom: 0;
+        font-size: 42px;
+    }
+    
+
+    .cartao-preco {
+        font-size: 18px;
+    }
+
+    .cartao .ouro, .cartao .prata {
+        font-size: 22px;
+    }
+
+    .seguros .cartao {
+        padding: 32px 36px 32px 36px;
+        gap: 10px;
+    }
+
+    .seguros .cartao-lista li {
+        font-size: 14px;        
+        margin: 10px 0;
+    }
+
+    .seguros .btn, .seguros .btn-prata {
+        grid-column: 1 / -1;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
