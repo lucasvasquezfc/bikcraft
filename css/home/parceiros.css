@@ -24,3 +24,32 @@
     margin: auto 0;
     ;
 }
+
+@media (max-width: 1400px) {
+    .parceiros{
+        margin: 100px 0;
+        padding: 0 20px;
+    }
+    
+    .parceiros-lista {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 450px) {
+    .parceiros{
+        margin: 60px 0;
+        padding: 0 20px;
+    }
+
+    .parceiros-titulo {
+        margin: 60px 0;
+        font-size: 42px;
+        line-height: 48px;
+        text-align: center;
+    }
+    
+    .parceiros-lista {
+        grid-template-columns: 1fr;
+    }
+}
