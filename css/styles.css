@@ -1,12 +1,18 @@
 @import url('./utilitarios.css');
-@import url('./home/navegacao.css');
+@import url('./navegacao.css');
+@import url('./footer.css');
+/* home */
 @import url('./home/introducao.css');
 @import url('./home/bicicletas.css');
 @import url('./home/diferencial.css');
 @import url('./home/parceiros.css');
 @import url('./home/depoimento.css');
 @import url('./home/seguros.css');
-@import url('./home/footer.css');
+/*  */
+/* bicicleta-interna */
+@import url('./bicicleta-interna/apresentacao.css');
+/*  */
+
 
 body {
     margin: 0 auto;

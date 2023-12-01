@@ -1,0 +1,22 @@
+.apresentacao {
+    background-color: var(--c11);
+    padding: 60px 0;
+    color: var(--w);
+}
+
+.apresentacao-banner__titulo {
+    color: var(--w);
+}
+
+.apresentacao-banner__preco {
+    color: var(--c6);
+}
+
+.apresentacao-tela{
+    width: 400px;
+}
+
+.apresentacao .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
