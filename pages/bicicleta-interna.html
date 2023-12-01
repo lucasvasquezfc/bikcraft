@@ -15,14 +15,16 @@
 <body>
     <header class="header">
         <nav class="navegacao screen-1">
-            <img src="../img/bikcraft.svg" alt="bikcraft">
+            <a href="../index.html"><img src="../img/bikcraft.svg" alt="bikcraft"></a>
             <ul class="menu font-1-m">
-                <li>Bicicletas</li>
-                <li>Seguros</li>
-                <li>Contato</li>
+                <li><a href="bicicleta-interna.html">Bicicletas-Interna</a></li>
+                <li><a href="bicicleta.html">Bicicletas</a></li>
+                <li><a href="seguros.html">Seguros</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
+    <!--  -->
 
     <div class="apresentacao">
         <div class="screen-1">
@@ -32,22 +34,78 @@
 
         <div class="container screen-1">
             <div class="apresentacao-tela">
-                <img src="../img/bicicletas/nimbus.jpg" alt="">
-                <img src="../img/bicicletas/magic.jpg" alt="">
-                <img src="../img/bicicletas/nebula.jpg" alt="">
+                <img class="tela-nimbus" src="../img/bicicletas/nimbus.jpg" alt="">
+                <img class="tela-magic" src="../img/bicicletas/magic.jpg" alt="">
+                <img class="tela-nebula" src="../img/bicicletas/nebula.jpg" alt="">
             </div>
 
             <div class="apresentacao-descricao">
-                <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
-                <div>
-                    <button class="btn"></button>
-                    <span class="mini-card">entrega em 5 dias</span>
-                    <span class="mini-card">18 em estoque</span>
+                <div class="bloco-1">
+                    <p class="font-2-l descricao-texto">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
+                    <div class="selecionar-compra">
+                        <button class="btn  font-1-m-b  upper">Comprar agora</button>
+                        <ul class="mini-cards">
+                            <li class="mini-card"><img src="../img/dec/entrega.svg" alt=""><span class="font-1-xs">entrega em 5 dias</span></li>
+                            <li class="mini-card"><img src="../img/dec/estoque.svg" alt=""><span class="font-1-xs">18 em estoque</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class=" bloco-informacoes">
+                    <h3 class="bloco-subtitulo  font-1-xs">informações</h3>
+                    <ul class="bg12 bloco-informacoes__cards">
+                        <li>
+                            <img src="../img/icones/eletrica.svg" alt="">
+                            <h3 class="font-2-m">Motor Elétrico</h3>
+                            <p class="cards-texto font-2-xs">Permite você viajar distâncias inimaginaveis com a sua bike.</p>
+                        </li>
+                        <li>
+                            <img src="../img/icones/velocidade.svg" alt="">
+                            <h3 class="font-2-m">40 km/h</h3>
+                            <p class="cards-texto font-2-xs">A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
+                        </li>
+                        <li>
+                            <img src="../img/icones/rastreador.svg" alt="">
+                            <h3 class="font-2-m">Rastreador</h3>
+                            <p class="cards-texto font-2-xs">Rastreador e sistema anti-furto para garantir o seu sossego.</p>
+                        </li>
+                        <li>
+                            <img src="../img/icones/carbono.svg" alt="">
+                            <h3 class="font-2-m">Fibra de Carbono</h3>
+                            <p class="cards-texto font-2-xs">Maior proteção possível para a sua Bikcraft com fibra de carbono.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bloco-ficha">
+                    <h3 class="bloco-subtitulo font-1-xs">Ficha Técnica</h3>
+                    <div class="bg12 ">
+                        <ul class="bloco-ficha__items font-2-s">
+                            <li>
+                                <p>Peso</p><span>9 kg</span>
+                            </li>
+                            <li>
+                                <p>Altura</p><span>60 cm</span>
+                            </li>
+                            <li>
+                                <p>Largura</p><span>120 cm</span>
+                            </li>
+                            <li>
+                                <p>Profundidade</p><span>10 cm</span>
+                            </li>
+                            <li>
+                                <p>Marchas</p><span>16</span>
+                            </li>
+                            <li>
+                                <p>Roda</p><span>29</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <!--  -->
     <footer class="footer">
         <div class="container screen-1">
             <img src="../img/bikcraft.svg" alt="">
