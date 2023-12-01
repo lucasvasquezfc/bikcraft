@@ -1,0 +1,37 @@
+.conheca {
+    background: var(--c11);
+    color: white;
+}
+
+.conheca .container {
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.conheca-titulo {
+    padding-bottom: 32px;
+}
+
+.conheca-texto {
+    padding-bottom: 20px;
+}
+
+.conheca-img {
+    position: relative;
+}
+
+.conheca-img img {
+    position: absolute;
+    top: -160px;
+    left: 0;
+    height: 758px;
+    width: 680px;
+    object-fit: cover;
+}
+
+.bg-span {
+    background: var(--c12);
+    height: 120px;
+}
