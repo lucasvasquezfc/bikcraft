@@ -1,5 +1,5 @@
 .conheca {
-    background: var(--c11);
+    background: var(--cor-11);
     color: white;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .bg-span {
-    background: var(--c12);
+    background: var(--cor-12);
     height: 120px;
 }
 

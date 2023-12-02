@@ -1,6 +1,6 @@
 .seguros {
-    background: var(--c11);
-    color: var(--w);
+    background: var(--cor-11);
+    color: var(--cor-0);
     padding: 60px 0 120px 0;
 }  
 
@@ -16,7 +16,7 @@
 }
 
 .seguros .cartao {
-    background: var(--c12);
+    background: var(--cor-12);
     border-radius: 5px;
     width: 560px;
     display: grid;
@@ -53,18 +53,18 @@
 }
 
 .seguros .cartao-modo {
-    color: var(--c6);
+    color: var(--cor-6);
     line-height: 0px;
 }
 
 .seguros .ouro {
     text-transform: uppercase;
-    color: var(--p1);
+    color: var(--cor-p1);
 }
 
 .seguros .prata {
     text-transform: uppercase;
-    color: var(--c6);
+    color: var(--cor-6);
 }
 
 

@@ -9,11 +9,11 @@
 
 .bicicletas-titulo {
     margin-bottom: 40px;
-    color: var(--c11);
+    color: var(--cor-or-11);
 }
 
 .bicicletas-subtitulo {
-    color: var(--c11);
+    color: var(--cor-or-11);
     position: relative;
     margin: 16px 0 8px 20px;
 }
@@ -21,7 +21,7 @@
 .bicicletas-subtitulo::after {
     content: '';
     display: block;
-    background-color: var(--p1);
+    background-color: var(--cor-p1);
     width: 12px;
     height: 8px;
     position: absolute;
@@ -30,7 +30,7 @@
 }
 
 .bicicletas-texto {
-    color: var(--c8);
+    color: var(--cor-or-8);
     padding-left: 20px;
 }
 

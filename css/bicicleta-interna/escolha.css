@@ -1,5 +1,5 @@
 .escolha {
-    background: var(--w);
+    background: var(--cor-0);
     padding: 100px 0px;
 }
 
@@ -25,14 +25,14 @@
 }
 
 .escolha-lista__titulo {
-    color: var(--c11);
+    color: var(--cor-11);
     position: relative;
 }
 
 .escolha-lista__titulo::after {
     content: '';
     display: block;
-    background-color: var(--p1);
+    background-color: var(--cor-p1);
     width: 12px;
     height: 8px;
     position: absolute;
@@ -41,6 +41,6 @@
 }
 
 .escolha-lista__preco {
-    color: var(--c8);
+    color: var(--cor-8);
     padding: 10px 0;
 }

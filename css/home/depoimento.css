@@ -1,7 +1,7 @@
 .depoimento {
     display: grid;
     grid-template-columns: 1fr 1fr;    
-    background: var(--p1);
+    background: var(--cor-p1);
 }
 
 .depoimento img {
@@ -11,7 +11,7 @@
 }
 
 .depoimento-items {
-    background: var(--p1);
+    background: var(--cor-p1);
     padding: 80px;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
 .depoimento-texto {
     font-size: 36px;
     line-height: 48px;
-    color: var(--p5);
+    color: var(--cor-p5);
     font-family: 'Merriweather';
     margin-bottom: 32px;
     position: relative;    
@@ -53,7 +53,7 @@
 
 
 .depoimento-nome {
-    color: var(--p4);
+    color: var(--cor-p4);
     line-height: 32px;
     font-weight: 600;
     display: block;

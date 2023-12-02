@@ -1,15 +1,15 @@
 .apresentacao {
-    background-color: var(--c11);
+    background-color: var(--cor-11);
     padding: 60px 0;
-    color: var(--w);
+    color: var(--cor-0);
 }
 
 .apresentacao-banner__titulo {
-    color: var(--w);
+    color: var(--cor-0);
 }
 
 .apresentacao-banner__preco {
-    color: var(--c6);
+    color: var(--cor-6);
 }
 
 .apresentacao .container {
@@ -45,7 +45,7 @@
 }
 
 .descricao-texto {
-    color: var(--c5);
+    color: var(--cor-5);
     padding-bottom: 20px;
 }
 
@@ -57,8 +57,8 @@
 }
 
 .apresentacao-descricao .mini-card {
-    background: var(--c12);
-    color: var(--c5);
+    background: var(--cor-12);
+    color: var(--cor-5);
     border-radius: 5px;
     padding: 2px 8px;
     display: flex;
@@ -94,25 +94,25 @@
 
 .cards-texto {
     padding: 10px 0;
-    color: var(--c6);
+    color: var(--cor-6);
 }
 
 .apresentacao-descricao .bg12{
-    background: var(--c12);
+    background: var(--cor-12);
     border-radius: 5px;
     padding: 32px;
 }
 
 .bloco-ficha__items {
-    background: var(--c11);
+    background: var(--cor-11);
     display: grid;
     grid-template-columns: 1fr;
     gap: 1px;
 }
 
 .bloco-ficha__items li {
-    background: var(--c12);
-    color: var(--c4);
+    background: var(--cor-12);
+    color: var(--cor-4);
     padding: 5px 0;
     display: flex;
     justify-content: space-between;

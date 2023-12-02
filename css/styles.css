@@ -1,6 +1,12 @@
-@import url('./utilitarios.css');
-@import url('./navegacao.css');
-@import url('./footer.css');
+/* utilidades */
+@import url('./utilidades/componentes.css');
+@import url('./utilidades/cores.css');
+@import url('./utilidades/tipografia.css');
+/* global */
+@import url('./global/_reset.css');
+@import url('./global/header.css');
+@import url('./global/utilitarios.css');
+@import url('./global/footer.css');
 /* home */
 @import url('./home/introducao.css');
 @import url('./home/bicicletas.css');
@@ -8,7 +14,6 @@
 @import url('./home/parceiros.css');
 @import url('./home/depoimento.css');
 @import url('./home/seguros.css');
-/*  */
 /* bicicleta-interna */
 @import url('./bicicleta-interna/apresentacao.css');
 @import url('./bicicleta-interna/escolha.css');
@@ -16,28 +21,3 @@
 /*  */
 
 
-body {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;    
-    background-color: var(--w);
-}
-
-h1,h2,h3,h4,h5,p,ul,li,span,a{
-    margin: 0;
-    padding: 0;
-}
-
-ul{
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-    color: inherit;
-}
-
-img{
-    max-width: 100%;
-    display: block;
-}

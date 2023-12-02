@@ -7,14 +7,14 @@
 }
 
 .parceiros-lista {
-    background: var(--c2);
+    background: var(--cor-2);
     display: grid;
     grid-gap: 2px;
     grid-template-columns: repeat(4, 1fr);
 }
 
 .parceiros-lista li {
-    background: var(--w);
+    background: var(--cor-0);
     display: flex;
     justify-content: center;
     padding: 40px 0;

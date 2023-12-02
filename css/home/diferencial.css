@@ -1,6 +1,6 @@
 .diferencial {    
-    background: var(--c11);
-    color: var(--w);
+    background: var(--cor-11);
+    color: var(--cor-0);
 }
 
 .diferencial .container {
@@ -40,23 +40,23 @@
 
 .diferencial-subtitulo {
     text-transform: uppercase;
-    color: var(--c5);
+    color: var(--cor-5);
     display: inline-block;
     margin-bottom: 20px;
 }
 .diferencial-titulo {
-    color: var(--w);
+    color: var(--cor-0);
     margin-bottom: 32px;
 }
 
 .diferencial-texto {
-    color: var(--c5);
+    color: var(--cor-5);
 }
 
 .diferencial-link {
     display: inline-block;
-    color: var(--p1);
-    border-bottom: 4px solid var(--p1);    
+    color: var(--cor-p1);
+    border-bottom: 4px solid var(--cor-p1);    
     margin-top: 20px;
     margin-bottom: 80px;
 }
