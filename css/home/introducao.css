@@ -1,124 +1,55 @@
-.introducao {
-    background-color: var(--c12);
+.introducao-bg {
+    background: var(--c12);
+    color: var(--w);
+    box-shadow: inset 0 -120px var(--w);
 }
 
-.introducao .container {
+.introducao {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    height: 680px;
-    color: var(--w);
+    gap: 0 40px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 0 auto;
 }
 
-.introducao-img {
-    grid-column: 2;
-    position: relative;
+.introducao-conteudo {
+    align-self: end;
+    padding-bottom: 200px;
 }
 
-.introducao img{
-    position: absolute;
-    height: 800px;
-    width: 640px;
-    display: block;
+.introducao img {
     object-fit: cover;
+    height: 100%;    
     border-radius: 5px;
-    object-position: 75% 25%;
 }
 
-.introducao div {
-    grid-row: 1;
-}
-
-.introducao-items {
-    padding-top: 200px;
-}
-
-.introducao-titulo {
+.introducao h1 {
     margin-bottom: 32px;
-    width: 520px;
+    font-size: 64px;
+    line-height: 1.125;
 }
 
-.introducao-texto {
-    margin-bottom: 20px;
-    max-width: 513px;
-    color: var(--c5);
+.introducao p {
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--c6);
 }
 
-.introducao .btn {
+.introducao a {
+    padding: 16px 32px;
+    background: linear-gradient(var(--p1), var(--p2));
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
     color: var(--p5);
-    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: bold;
 }
 
-@media (max-width: 1400px) {
-    .introducao {
-        height: 100%;
-        padding:0;
-        /* padding-bottom: 60px; */
-    } 
-
-    .introducao .container {
-        padding: 0 20px;
-        padding-bottom: 120px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        height: 100%;
-        color: var(--w);
-    }
-
-    .introducao img{
-        position: initial;
-        max-width: 100%;
-    }    
-}
-
-@media (max-width: 900px) {
-    .introducao {        
-        position: relative;
-    }
-
-    .introducao::after {
-        content: '';
-        display: block;
-        position:  absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0.3;
-        background: url('../../img/bicicleta/nimbus1.jpg');
-        background-position: 70% 40%;
-    }
-
-    .introducao-img {
-        display: none;
-    }
-
-    .introducao-items {
-        padding-top: 50px;
-        z-index: 1;
-    }    
-
-    .introducao .container {
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
-    
-    .introducao-titulo {
-        font-size: 32px;
-        line-height: 42px;
-        width: auto;
-        word-wrap: break-word;
-    }
-    
-    .introducao-texto {
-        font-size: 18px;
-        line-height: 24px;
-        width: auto;
-    }
-
-    .introducao .btn {
-        font-size: 16px;
-        line-height: 24px;
-        padding: 10px 20px;
-    }
+.introducao a:hover {
+   background: linear-gradient(var(--p2), var(--p2));
 }

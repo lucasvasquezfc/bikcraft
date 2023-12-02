@@ -1,62 +1,80 @@
-.header {
+.header-bg {
     background-color: var(--c12);
-    padding: 25px 0;
     color: var(--w);
 }
 
-.navegacao { 
+.header {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
-.navegacao a{
+.header a{
     place-self: center;
 }
 
-.menu {
+.header-menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 40px;
 }
 
-.menu li{
+.header-menu a {
+    color: var(--w);
+    display: inline-block;
+    padding: 16px 0;
+    font-size: 18px;
+    position: relative;
+}
+
+.header-menu a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: var(--w);
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+}
+
+.header-menu a:hover:after {
+    width: 100%;
+}
+
+.header-menu li{
     padding: 10px 0;
     cursor: pointer;
 }
 
-.menu a, .menu a:visited {
-    color: var(--w);
-}
 
-.menu a:hover {
-    color: var(--p1);
-}
-
-@media (max-width: 1400px) {
-    .navegacao {
-        padding: 0 20px;
+@media (max-width: 800px) {
+    .header-menu a{
+        background: var(--c11);
+        padding: 12px 16px;
+        border-radius: 5px;
+    }
+    .header-menu a:hover{
+        background: var(--c10);
+    }
+    .header-menu {
         gap: 20px;
     }
-}
-
-@media (max-width: 900px) {
-    .navegacao {
-        flex-direction: column;
-    }
-
-    .menu {
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
+    .header a:after {
+        display: none;
     }
 }
 
-@media (max-width: 400px) {
-    .menu {
-        flex-direction: column;
-        gap: 0px;
-        display: block;
-        text-align: center;
+@media (max-width: 600px) {
+    .header-menu a{
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    .header-menu {
+        gap: 12px;
     }
 }
+

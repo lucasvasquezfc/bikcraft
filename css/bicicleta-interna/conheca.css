@@ -35,3 +35,28 @@
     background: var(--c12);
     height: 120px;
 }
+
+@media (max-width: 1200px) {
+    .conheca {
+        padding: 0 40px;
+    }
+    .conheca-titulo {
+        font-size: 36px;
+        line-height: 42px;
+        padding-bottom: 32px;
+    }
+    
+    .conheca-texto {
+        padding-bottom: 20px;
+    }
+
+    .conheca-img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 500px;
+        width: 680px;
+        object-fit: cover;
+    }
+    
+}
