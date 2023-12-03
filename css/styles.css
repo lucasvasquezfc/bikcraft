@@ -15,11 +15,13 @@
 /* seguros  */
 @import './seguros/seguros.css';
 /* bicicletas */
-@import './bicicletas/bicicleta-lista.css';
+@import './bicicletas/bicicletas-lista.css';
+@import './bicicletas/bicicletas.css';
 /* bicicleta-interna */
 @import './bicicleta-interna/apresentacao.css';
 @import './bicicleta-interna/escolha.css';
 @import './bicicleta-interna/conheca.css';
-/*  */
+/* termos */
+@import './termos/termos.css'
 
 
