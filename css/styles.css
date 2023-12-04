@@ -19,6 +19,7 @@
 /* bicicletas */
 @import './bicicletas/bicicletas-lista.css';
 @import './bicicletas/bicicletas.css';
+@import './bicicletas/nimbus.css';
 /* bicicleta-interna */
 @import './bicicleta-interna/apresentacao.css';
 @import './bicicleta-interna/escolha.css';
