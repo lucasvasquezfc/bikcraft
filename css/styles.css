@@ -3,7 +3,7 @@
 @import './utilidades/cores.css';
 @import './utilidades/tipografia.css';
 /* global */
-@import './global/_reset.css';
+@import './global/global.css';
 @import './global/header.css';
 @import './global/utilitarios.css';
 @import './global/footer.css';
@@ -19,11 +19,9 @@
 /* bicicletas */
 @import './bicicletas/bicicletas-lista.css';
 @import './bicicletas/bicicletas.css';
-@import './bicicletas/nimbus.css';
-/* bicicleta-interna */
-@import './bicicleta-interna/apresentacao.css';
-@import './bicicleta-interna/escolha.css';
-@import './bicicleta-interna/conheca.css';
+/* bicicleta */
+@import './bicicleta/bicicleta.css';
+@import './bicicleta/seguro.css';
 /* termos */
 @import './termos/termos.css'
 
